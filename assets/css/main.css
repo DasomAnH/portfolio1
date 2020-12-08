@@ -2942,6 +2942,8 @@ ul.icons {
   cursor: default;
   list-style: none;
   padding-left: 0;
+  display: flex;
+  justify-content: center;
 }
 
 ul.icons li {
@@ -4120,6 +4122,10 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
   max-width: 72rem;
   z-index: 2;
   align-items: center;
+}
+
+.copyright {
+  text-align: center;
 }
 
 #footer input,
