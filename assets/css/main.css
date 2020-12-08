@@ -169,6 +169,7 @@ i {
 .skillListContainer {
   display: flex;
   flex-flow: row;
+  justify-content: center;
 }
 
 .skillTitle {
@@ -4118,6 +4119,7 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
   width: calc(100% - 4rem);
   max-width: 72rem;
   z-index: 2;
+  align-items: center;
 }
 
 #footer input,
@@ -4465,7 +4467,8 @@ body.is-preload #intro:not(.hidden) + #header + #nav {
 
 @media screen and (max-width: 980px) {
   #footer {
-    display: block;
+    display: flex;
+    flex-direction: column;
   }
 
   #footer > section {
